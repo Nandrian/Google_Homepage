@@ -1,0 +1,187 @@
+/* LIST IN HEADER */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-right: 20px;
+    overflow: hidden;
+}
+
+li a {
+    font-size: 11px;
+    font-family: sans-serif;
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+}
+
+li span {
+    float: right;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+/* IMAGE BG */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 250px;
+  }
+
+  /* BOX SEARCH */
+.search-box {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 1pt solid;
+    border-color: rgb(231, 231, 231);
+    height: 17px;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+.search-btn {
+    color: rgb(212, 212, 212);
+    float: left;
+    width: 25px;
+    height: 20px;
+    padding-right: 10px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-box:hover {
+    box-shadow: 1px 1px 2px 1px rgb(212, 212, 212);
+}
+
+.search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: black;
+    font-size: 14px;
+    line-height: 15px;
+    width: 450px;
+}
+
+/* BUTTON SEARCH */
+.g-btn {
+    position: absolute;
+    top: 41%;
+    left: 41%;
+}
+
+.g-btn a:hover {
+    border: 1px solid rgb(190, 190, 190);
+    color: rgb(31, 31, 31);
+}
+
+.g-btn a {
+    position: relative;
+    font-family: sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    width: 120px;
+    background-color: rgb(241, 241, 241);
+}
+
+.btn-s {
+    color: rgb(100, 100, 100);
+    float: left;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* GOOGLE OFFERED */
+.offer {
+    position: absolute;
+    top: 47%;
+    left: 43%;
+}
+
+.off {
+    font-size: 11px;
+    font-family: sans-serif;
+}
+
+.btn-t {
+    text-decoration: none;
+    color: rgb(11, 11, 180);
+    margin: 4px;
+}
+
+.o-btn a:hover {
+    text-decoration: underline;
+}
+
+/* FOOTER */
+.foot {
+    position: fixed;
+    bottom: 0;
+    width: 105%;
+    background-color: rgb(248, 248, 248);
+    height: 75px;
+    margin: 0 -10px;
+    padding: 0;
+}
+
+.location {
+    font-family: sans-serif;
+    font-size: 12px;
+    padding: 1px 30px;
+    background-color: rgb(248, 248, 248);
+    border: 1px solid rgb(230, 230, 230);
+    position: relative;
+    height: 36px;
+    color: rgb(87, 87, 87);
+}
+
+.left {
+    font-family: sans-serif;
+    font-size: 11.5px;
+    padding: 10px 30px;
+    position: absolute;
+    float: left;
+}
+
+.left a {
+    color: rgb(87, 87, 87);
+    margin-right: 18px;
+}
+
+.right {
+    font-family: sans-serif;
+    font-size: 11.5px;
+    position: absolute;
+    float: right;
+    text-align: right;
+    right: 0;
+    padding: 10px 30px;
+    margin-right: 70px;
+}
+
+.right a {
+    color: rgb(87, 87, 87);
+    margin-left: 18px;
+}
+
+.left a:hover {
+    text-decoration: underline;
+}
+
+.right a:hover {
+    text-decoration: underline;
+}
